@@ -17,4 +17,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build
-      run: git submoudle update --init --recursive && cargo build --verbose
+      run: git submodule update --init --recursive && cargo build --verbose
